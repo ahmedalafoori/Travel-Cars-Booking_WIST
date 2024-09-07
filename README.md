@@ -1,5 +1,50 @@
 # Travel-Cars-Booking_WIST
 
+ميزات النظام:
+نظام حجز سيارات متكامل
+إدارة المستخدمين والأدوار والصلاحيات
+إدارة السيارات والفئات
+نظام المراجعات والتقييمات
+إدارة العروض والمدفوعات
+واجهة برمجة تطبيقات (API) كاملة
+لوحة تحكم مدمجة باستخدام Filament
+نظام إشعارات متقدم مع سجلات الإشعارات
+
+لتنزيل وتشغيل النظام:
+قم بنسخ المستودع:
+
+
+git clone https://github.com/ahmedalafoori/Travel-Cars-Booking_WIST.git
+انتقل إلى مجلد المشروع:
+
+
+cd Travel-Cars-Booking_WIST
+قم بتثبيت التبعيات:
+
+
+composer install
+انسخ ملف البيئة:
+
+
+cp .env.example .env
+قم بإنشاء مفتاح التطبيق:
+
+
+php artisan key:generate
+قم بتكوين قاعدة البيانات في ملف .env.
+
+قم بتشغيل الترحيلات:
+
+
+php artisan migrate
+قم بتشغيل البذور:
+
+
+php artisan db:seed
+قم بتشغيل الخادم المحلي:
+
+
+php artisan serve
 
 
 
