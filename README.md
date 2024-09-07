@@ -94,6 +94,9 @@ php artisan serve
 php artisan schedule:work
 يمكنك جدولة هذا الأمر في ملف Kernel.php لإرسال الإشعارات تلقائيًا. الى الايميل حق العميل بموعد استلام او تسليم السياره 
 
+واجهه تسجيل الدخول :Email : Ahmedalafoori@gmail.com
+password:123456789
+
 
 
 
